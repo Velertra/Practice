@@ -1,19 +1,21 @@
-.container {
-    display: flex;
-    background: rgb(170, 219, 35);
-    border: 4px solid midnightblue;
-    width: 400px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box {
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+  border: 2px solid blue;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+} 
+
+.inline {
+  display: inline;
+
+}
     
-    background: palevioletred;
-    font-weight: bold;
-    text-align: center;
-    border: 6px solid maroon;
-    width: 80px;
-    height: 80px;
-  }
